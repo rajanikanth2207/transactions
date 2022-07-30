@@ -31,6 +31,8 @@ const AddTransaction = ({transactionList, setTransactionList}) => {
     setTransactionAmount('');
     setTransactionDate('');
     setTransactionType('');
+    document.querySelectorAll('.tab-button')[0].setAttribute('aria-selected', false);
+    document.querySelectorAll('.tab-button')[1].setAttribute('aria-selected', true);
     }
 
 
@@ -59,7 +61,7 @@ const AddTransaction = ({transactionList, setTransactionList}) => {
         />
       </FormControl>
       <FormControl id="amount" isRequired>
-        <FormLabel fontWeight="bold">Transaction Amount</FormLabel>
+        <FormLabel fontWeight="bold">Transaction Date</FormLabel>
         <Input
           value={transactionDate}
           type="date"
