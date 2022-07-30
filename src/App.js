@@ -40,8 +40,8 @@ function App() {
         <Box d="flex" padding={3} bgColor={'white'} w="100%" borderBottomRadius="lg" borderWidth="1px" fontFamily="Work sans">
           <Tabs variant='soft-rounded'>
             <TabList>
-              <Tab width="50%" className="tab-button">Add Transactions</Tab>
-              <Tab width="50%" className="tab-button">Transactions List</Tab>
+              <Tab width="50%">Add Transactions</Tab>
+              <Tab width="50%">Transactions List</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>

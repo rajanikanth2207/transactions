@@ -31,8 +31,6 @@ const AddTransaction = ({transactionList, setTransactionList}) => {
     setTransactionAmount('');
     setTransactionDate('');
     setTransactionType('');
-    document.querySelectorAll('.tab-button')[0].setAttribute('aria-selected', false);
-    document.querySelectorAll('.tab-button')[1].setAttribute('aria-selected', true);
     }
 
 
